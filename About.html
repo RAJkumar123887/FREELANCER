@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muddasani Rajkumar Portfolio</title>
+  <style>
+    /* Reset & base */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #1a1a1a; color: #ededed; scroll-behavior: smooth; }
+
+    /* Header */
+    .header {
+      position: fixed; top: 0; left: 0; width: 100%;
+      background: #111; padding: 15px 80px;
+      display: flex; justify-content: space-between; align-items: center;
+      z-index: 1000;
+    }
+    .logo { font-size: 24px; font-weight: 600; color: #0ef; text-decoration: none; }
+    .navbar a {
+      margin-left: 30px; text-decoration: none;
+      font-size: 18px; color: #fff; transition: 0.3s;
+    }
+    .navbar a:hover { color: #0ef; }
+
+    /* Home Section */
+    .home {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 100px 10%; height: 100vh;
+      background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+    }
+    .home-content { max-width: 600px; }
+    .home-content h3 { font-size: 22px; }
+    .home-content h1 { font-size: 42px; margin: 10px 0; color: #0ef; }
+    .home-content .highlight { color: #0ef; font-weight: bold; }
+    .home-content p { margin-top: 15px; font-size: 16px; line-height: 1.6; }
+    .btn {
+      display: inline-block; margin-top: 20px; padding: 10px 20px;
+      background: #0ef; color: #111; text-decoration: none;
+      border-radius: 6px; font-size: 16px; transition: 0.3s;
+    }
+    .btn:hover { background: #08c; color: #fff; }
+
+    /* Home image */
+    .home-img img {
+      width: 350px; height: 350px;
+      border-radius: 50%; object-fit: cover;
+      border: 4px solid #0ef;
+    }
+
+    /* Social icons */
+    .home-sci { margin-top: 20px; }
+    .home-sci a img {
+      width: 30px; height: 30px; margin-right: 12px;
+      border-radius: 50%; transition: transform 0.3s;
+    }
+    .home-sci a img:hover { transform: scale(1.2); }
+
+    /* About Section */
+    .about {
+      padding: 80px 10%;
+      background: #111;
+    }
+    .about h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #0ef;
+    }
+    .about-content {
+      max-width: 1000px;
+      margin: 0 auto;
+      font-size: 16px;
+      line-height: 1.8;
+      text-align: justify;
+    }
+    .about-content h3 {
+      margin-top: 30px;
+      font-size: 22px;
+      color: #0ef;
+    }
+    .about-content ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+    .about-content ul li {
+      margin-bottom: 10px;
+    }
+
+    /* Responsive */
+    @media(max-width: 768px) {
+      .home { flex-direction: column; text-align: center; padding: 120px 5% 40px; }
+      .home-img { margin-top: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo">PORTFOLIO</a>
+    <nav class="navbar">
+      <a href="INDEX.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contactus</a>
+    </nav>
+  </header>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>MUDDASANI RAJKUMAR</h1>
+      <h3>And I'm a <span class="highlight">Freelancer</span></h3>
+      <p>
+        I am a dedicated freelancer with 1 year of professional experience in Digital Marketing,
+        UI/UX Design, and Data Analytics. My work focuses on crafting user-centric designs,
+        building data-driven strategies, and helping businesses grow through innovative digital solutions.
+        Skilled in analyzing historical data to provide insights for clients and experienced
+        in creating websites, frontend designs, and development.
+      </p>
+      <div class="home-sci">
+        <a href="https://www.facebook.com/raj.kumar.varma.561322/"><img src="fb.jpeg" alt="Facebook"></a>
+        <a href="https://www.linkedin.com/in/muddasani-rajkumar-1b479a280/"><img src="linked in.jpeg" alt="LinkedIn"></a>
+        <a href="https://github.com/RAJkumar123887"><img src="github.jpeg" alt="GitHub"></a>
+        <a href="https://wa.me/+919391271361?text=Hi%20there%2c%20I%27d%20like%20chat!"><img src="whatsup.jpeg" alt="WhatsApp"></a>
+        <a href="https://www.instagram.com/rr_techcreative_blendsolutions?igsh=MWtzNXF6ZWZjbnp3OQ=="><img src="INST.jpeg" alt="Instagram"></a>
+      </div>
+    </div>
+    <div class="home-img">
+      <img src="MYIMAGE.png" alt="Profile Image">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" <a href="About.html" id="about">
+    <h2>📌 About Me & My Company</h2>
+    <div class="about-content">
+      <p>
+        My name is <strong>Muddasani Rajkumar</strong>, and I am a passionate freelancer specializing in 
+        <strong>Digital Marketing, UI/UX Design, and Data Analytics</strong>.
+        Over the past year, I have built my career on a foundation of curiosity, creativity, and an eagerness 
+        to solve real-world business challenges using modern digital tools and strategies.
+      </p>
+      <p>
+        At the heart of my work lies a simple philosophy: 
+        <em>every business deserves innovative digital solutions that help them connect with their audience, 
+        grow sustainably, and achieve measurable results.</em>
+      </p>
+
+      <h3>🌟 My Professional Journey</h3>
+      <p>
+        I started freelancing to challenge myself and to have the freedom to work on diverse projects.
+        This journey has given me exposure to multiple industries, ranging from small businesses needing a 
+        strong online presence to clients seeking detailed data-driven insights.
+      </p>
+      <ul>
+        <li><strong>Digital Marketing</strong> – SEO, paid ads, and organic growth.</li>
+        <li><strong>UI/UX Design</strong> – Websites, landing pages, and applications.</li>
+        <li><strong>Data Analytics</strong> – Data collection, visualization, and business insights.</li>
+      </ul>
+
+      <h3>💡 What I Do for Businesses</h3>
+      <ul>
+        <li><strong>Digital Marketing Solutions</strong> – SEO, campaigns, and engagement strategies.</li>
+        <li><strong>UI/UX & Web Development</strong> – Responsive, modern websites with seamless navigation.</li>
+        <li><strong>Data Analytics & Insights</strong> – Turning data into actionable strategies.</li>
+      </ul>
+
+      <h3>🏢 My Company Vision</h3>
+      <p>
+        Beyond freelancing, I aspire to build <strong>RR Tech Creative Blend Solutions</strong>, 
+        a company that blends creativity, technology, and strategy to deliver world-class digital services.
+      </p>
+
+      <h3>🔑 Skills & Expertise</h3>
+      <ul>
+        <li>Digital Marketing: SEO, SEM, PPC, Social Media, Email Marketing.</li>
+        <li>UI/UX Design: Wireframing, Prototyping, Responsive Layouts.</li>
+        <li>Data Analytics: Cleaning, Visualization, BI Dashboards.</li>
+        <li>Web Development: HTML, CSS, JavaScript, WordPress.</li>
+      </ul>
+
+      <h3>🌍 Why Choose Me?</h3>
+      <ul>
+        <li>✔️ Adaptability</li>
+        <li>✔️ Cost-Effective Services</li>
+        <li>✔️ End-to-End Support</li>
+        <li>✔️ Proven Problem-Solving Skills</li>
+        <li>✔️ Future-Oriented Approach</li>
+      </ul>
+
+      <h3>📩 Let’s Connect</h3>
+      <p>
+        If you are looking for someone who can help you design stunning websites, improve your online presence, 
+        or make sense of your data, I would love to collaborate with you. <br>
+        📧 <a href="mail:rrtechcreativeblend@gmail.com">rrtechcreativeblend@gmail.com</a><br>
+         📞 <a href="tel:+919391271361">+91 9391271361</a>
+        </p>
+    </div>
+  </section>
+</body>
+</html>
+  

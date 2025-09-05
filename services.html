@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services & Company Stats</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    /* Header */
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 80px;
+      background: #111;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 25px;
+      color: #17c6e1;
+      text-decoration: none;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .navbar a {
+      display: inline-block;
+      font-size: 18px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      margin-left: 30px;
+      transition: 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #0ef;
+    }
+
+    main {
+      margin-top: 120px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.4rem;
+      color: #222;
+    }
+
+    /* Services Section */
+    .services {
+      padding: 60px 20px;
+      background: #fff;
+    }
+
+    .service-box {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      background: #f4f4f4;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 1100px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+
+    .service-box img {
+      width: 280px;
+      height: auto;
+      margin-right: 30px;
+      border-radius: 12px;
+    }
+
+    .service-text {
+      flex: 1;
+    }
+
+    .service-text h3 {
+      font-size: 2rem;
+      margin-bottom: 16px;
+      color: #0056b3;
+    }
+
+    .service-text p {
+      line-height: 1.8;
+      font-size: 1.05rem;
+      text-align: justify;
+    }
+
+    /* Company Stats Section */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 20px;
+      background: #eef3f7;
+    }
+
+    .image-box {
+      flex: 1;
+      min-width: 280px;
+      padding: 20px;
+    }
+
+    .image-box img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .stats {
+      flex: 1;
+      min-width: 280px;
+      padding: 20px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .stat-btn {
+      flex: 1;
+      min-width: 200px;
+      margin: 12px;
+      padding: 25px;
+      background: #fff;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      cursor: default;
+      transition: transform 0.3s ease;
+    }
+
+    .stat-btn:hover {
+      transform: translateY(-5px);
+    }
+
+    .stat-btn h2 {
+      font-size: 2.2rem;
+      color: #0056b3;
+      margin-bottom: 10px;
+    }
+
+    .stat-btn p {
+      font-size: 1rem;
+      color: #444;
+    }
+
+    /* Contact Section */
+    .contact-section {
+      padding: 60px 20px;
+      background: #fff;
+    }
+
+    .contact-box {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px;
+      background: #f4f4f4;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+
+    .contact-info h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #0056b3;
+    }
+
+    .contact-details p {
+      font-size: 1.05rem;
+      margin: 12px 0;
+    }
+
+    .contact-details span {
+      font-weight: bold;
+      color: #222;
+    }
+
+    .contact-details a {
+      color: #0056b3;
+      text-decoration: none;
+    }
+
+    .contact-details a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo">PORTFOLIO</a>
+    <nav class="navbar">
+      <a href="INDEX.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contactus</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <h2>Our Services</h2>
+
+      <div class="service-box">
+        <img src="DIGITAL MARKETING.jpeg" alt="Digital Marketing">
+        <div class="service-text">
+          <h3>Digital Marketing</h3>
+          <p>
+            As a freelance digital marketing professional, I specialize in helping businesses grow by
+            developing data-driven online strategies. From social media campaigns and content marketing
+            to SEO optimization and paid advertising, I create tailored solutions that enhance brand
+            visibility and attract target customers. My focus is not only on driving traffic but also
+            on converting visitors into loyal clients. By combining creativity with analytics, I help
+            companies achieve sustainable growth in the competitive digital marketplace.
+          </p>
+        </div>
+      </div>
+
+      <div class="service-box">
+        <img src="UI-UX.webp" alt="UI/UX Design">
+        <div class="service-text">
+          <h3>UI/UX Design</h3>
+          <p>
+            As a freelance UI/UX designer, my mission is to craft visually stunning and user-friendly
+            interfaces that create meaningful interactions. I focus on building responsive designs that
+            adapt seamlessly across devices while ensuring intuitive navigation. With a balance of
+            aesthetics and functionality, I aim to provide end-users with engaging digital experiences
+            that foster customer satisfaction and brand loyalty. My work bridges creativity with
+            usability, making sure every design communicates the brand’s identity effectively.
+          </p>
+        </div>
+      </div>
+
+      <div class="service-box">
+        <img src="DATA ANALYTICS.jpg" alt="Data Analytics">
+        <div class="service-text">
+          <h3>Data Analytics</h3>
+          <p>
+            As a freelance data analyst, I transform raw data into actionable insights that empower
+            businesses to make smarter decisions. By analyzing trends, customer behavior, and
+            performance metrics, I provide strategies that help organizations improve efficiency and
+            stay ahead of the competition. My expertise lies in converting complex datasets into clear,
+            visual reports that highlight opportunities for growth. I believe data-driven decisions are
+            the backbone of modern business success, and my goal is to provide clarity in every project
+            I undertake.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container" id="stats">
+      <div class="image-box">
+        <img src="client.jpg" alt="Business Meeting">
+      </div>
+      <div class="stats">
+        <h2>Company Stats</h2>
+        <div class="row">
+          <button class="stat-btn">
+            <h2>01+</h2>
+            <p>Years of Experience</p>
+          </button>
+          <button class="stat-btn">
+            <h2>10+</h2>
+            <p>Projects Completed Successfully</p>
+          </button>
+        </div>
+        <div class="row">
+          <button class="stat-btn">
+            <h2>1+</h2>
+            <p>Countries Served Across Different Industries</p>
+          </button>
+          <button class="stat-btn">
+            <h2>10+</h2>
+            <p>Employees and Collaborators in Our Network</p>
+          </button>
+          <button class="stat-btn">
+            <h2>100%</h2>
+            <p>Client Satisfaction Rate Based on Feedback</p>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="Getintouch-section" id="Getintouch">
+      <div class="Getintouch-box">
+        <div class="Getintouch-info">
+          <h2>📞 Get in Touch</h2>
+          <div class="contact-details">
+            <p><span>📍 Address:</span> Alwal Hills, Road No: 7, Near Rani Vihar Colony, Hyderabad, India - 500010</p>
+            <p><span>📞 Mobile:</span> <a href="tel:+919391271361">+91 9391271361</a></p>
+            <p><span>✉️ Email:</span> <a href="mailto:rrtechcreativeblend@gmail.com">rrtechcreativeblend@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

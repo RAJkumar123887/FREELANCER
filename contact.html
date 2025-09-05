@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    /* Header */
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 80px;
+      background: #111;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+    }
+
+    .logo {
+      font-size: 26px;
+      color: #109beb;
+      text-decoration: none;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .navbar a {
+      font-size: 18px;
+      color: #fff;
+      text-decoration: none;
+      margin-left: 30px;
+      transition: color 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #0ef;
+    }
+
+    /* Contact Section */
+    .contact-section {
+      padding: 120px 20px 60px;
+      background: #fff;
+    }
+
+    .contact-section h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      margin-bottom: 40px;
+      color: #222;
+    }
+
+    .contact-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 25px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    /* Left Info */
+    .contact-info {
+      flex: 1;
+      min-width: 300px;
+      padding: 25px;
+      background: #f0f4f8;
+      border-radius: 12px;
+    }
+
+    .contact-info h3 {
+      color: #444;
+      margin-bottom: 15px;
+    }
+
+    .contact-info p {
+      margin: 10px 0;
+      font-size: 1rem;
+    }
+
+    .contact-info span {
+      font-weight: bold;
+      color: #111;
+    }
+
+    .contact-info a {
+      color: #0073e6;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    /* Social Links */
+    .home-sci {
+      margin-top: 20px;
+      display: flex;
+      gap: 15px;
+    }
+
+    .home-sci img {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      transition: transform 0.3s ease;
+    }
+
+    .home-sci img:hover {
+      transform: scale(1.15);
+    }
+
+    /* Contact Form */
+    .contact-form {
+      flex: 1;
+      min-width: 300px;
+      background: #f0f4f8;
+      padding: 25px;
+      border-radius: 12px;
+    }
+
+    .contact-form h3 {
+      margin-bottom: 15px;
+      color: #444;
+    }
+
+    .contact-form form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 12px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      width: 100%;
+    }
+
+    .contact-form button {
+      padding: 14px;
+      background: #0073e6;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .contact-form button:hover {
+      background: #005bb5;
+    }
+
+    /* Map */
+    .map {
+      margin-top: 40px;
+      width: 100%;
+      height: 380px;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .map iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo">PORTFOLIO</a>
+    <nav class="navbar">
+      <a href="home.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="contact.html">Services</a>
+      <a href="services.html">Contactus</a>
+    </nav>
+  </header>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <h2>📞 Get in Touch with Us</h2>
+    <div class="contact-box">
+
+      <!-- Left Side Info -->
+      <div class="contact-info">
+        <h3>Our Office</h3>
+        <p><span>📍 Address:</span> Alwal Hills, Road No: 7, Near Rani Vihar Colony, Hyderabad, India - 500010</p>
+        <p><span>📞 Mobile:</span> <a href="tel:+919391271361">+91 9391271361</a></p>
+        <p><span>✉️ Email:</span> <a href="mailto:rrtechcreativeblend@gmail.com">rrtechcreativeblend@gmail.com</a></p>
+        <p>We’re always excited to collaborate on new projects and help businesses grow. Whether you’re looking for
+           digital marketing expertise, UI/UX design solutions, or data analytics services, feel free to reach out.
+           Our team is here to guide you and provide the best solutions tailored to your needs.</p>
+
+        <h3>🌐 Follow Us</h3>
+        <div class="home-sci">
+          <a href="https://www.facebook.com/raj.kumar.varma.561322/"><img src="fb.jpeg" alt="Facebook"></a>
+          <a href="https://www.linkedin.com/in/muddasani-rajkumar-1b479a280/"><img src="linked in.jpeg" alt="LinkedIn"></a>
+          <a href="https://github.com/RAJkumar123887"><img src="github.jpeg" alt="GitHub"></a>
+          <a href="https://wa.me/+919391271361?text=Hi%20there%2c%20I%27d%20like%20chat!"><img src="whatsup.jpeg" alt="WhatsApp"></a>
+          <a href="https://www.instagram.com/rr_techcreative_blendsolutions"><img src="INST.jpeg" alt="Instagram"></a>
+        </div>
+      </div>
+
+      <!-- Right Side Form -->
+      <div class="contact-form">
+        <h3>Send Us a Message</h3>
+        <form action="#" method="POST">
+          <input type="text" name="name" placeholder="Your Full Name" required>
+          <input type="email" name="email" placeholder="Your Email Address" required>
+          <input type="text" name="subject" placeholder="Subject" required>
+          <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+          <button type="submit">📨 Send Message</button>
+        </form>
+      </div>
+    </div>
+<div class="map">
+    <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.630000000000!2d78.508500000000!3d17.475500000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9bc5a4d04b23%3A0x4e1eac1a5e6c7bb9!2sAlwal%20Hills%20Road%20No%207%2C%20Secunderabad%2C%20Hyderabad!5e0!3m2!1sen!2sin!4v1693567890123"
+      width="950px" height="350" style="border:0;" 
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+  </iframe>
+</div>
+    </div>
+  </section>
+</body>
+</html>
